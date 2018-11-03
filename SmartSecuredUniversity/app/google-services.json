@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "933032656664",
+    "firebase_url": "https://smartduniversity.firebaseio.com",
+    "project_id": "smartduniversity",
+    "storage_bucket": "smartduniversity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933032656664:android:bc12435897ad760b",
+        "android_client_info": {
+          "package_name": "srilankainstituteofinformationtechnology.smartsecureduniversity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933032656664-h4r6huagb04j7umq9q6qg5usp94013di.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "srilankainstituteofinformationtechnology.smartsecureduniversity",
+            "certificate_hash": "8a17844f5c62a41c19bf87e0fedd41bcbf7a3828"
+          }
+        },
+        {
+          "client_id": "933032656664-jkrta8vcgqid29h2q9r6ahvtq7hd4cpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiHOxXY_tJYs3hlohQtU9IAafwnjOpoDM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933032656664-jkrta8vcgqid29h2q9r6ahvtq7hd4cpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

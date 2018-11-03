@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Smart Secured University</string>
+
+    <!-- Main activity text  -->
+    <string name="main_text1">Welcome to the <b>Smart Secured University</b> Home page, feel free to use following features for the easy of use.</string>
+    <string name="main_text2">Dont worry about  personal security, try using <b>Personal Security Guard</b> .</string>
+    <string name="main_text3">Finding a missing friend or want to track a friend, try using <b>Missing Person Finder</b> .</string>
+
+    <!-- Home activity text-->
+    <string name="home_text1"><b>LOGIN To YOUR ACCOUNT</b></string>
+
+    <!-- Find Person activity text-->
+    <string name="find_person_text1">Find a missing person or want to track a person, Search using <b>Username, Contact Number or Email Address</b></string>
+
+    <!-- Report Person activity text-->
+    <string name="report_person_text1"><b> Have you seen this person? Mark the time from drop down</b></string>
+    <string-array name="sprin_array">
+        <item>No</item>
+        <item>30 seconds ago</item>
+        <item>5 minutes ago</item>
+        <item>30 minutes ago</item>
+        <item>1 hour ago</item>
+        <item>2 hour ago</item>
+        <item>Found the person</item>
+    </string-array>
+
+    <!-- Personal Security Guard text-->
+    <string name="personal_guard_text1">To keep informed your<b>key person</b>in an emergency, please update your emergency contact!</string>
+    <string name="personal_guard_text2">Let us make sure that you are secured within the area..</string>
+
+    <!-- Send Alerts text-->
+    <string name="send_alerts_text1">Notify the<b> Security Team!!</b></string>
+    <string name="send_alerts_text2">Notify the<b> Emergency Contacts!!</b></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

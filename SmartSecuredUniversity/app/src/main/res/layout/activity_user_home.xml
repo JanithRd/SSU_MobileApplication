@@ -1,0 +1,128 @@
+<FrameLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="srilankainstituteofinformationtechnology.smartsecureduniversity.UserHome" >
+
+<fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp">
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logout"
+            android:text="logout"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/settings"
+            android:text="Settings"/>
+    </LinearLayout>
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO ONLINE"
+        android:layout_margin="10sp"
+        android:textSize="19dp"
+        android:id="@+id/workingSwitch"/>
+</LinearLayout>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:id="@+id/adminInfo"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:visibility="gone"
+    android:elevation="1dp"
+    android:translationZ="1dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/adminProfileImage"
+            android:src="@mipmap/ic_default_user"
+            android:padding="20sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="40sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/adminName"
+                android:paddingBottom="20dp"
+                android:textColor="#FF3C33"
+                android:textSize="20dp"
+                android:paddingTop="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/adminPhone"
+                android:paddingBottom="10sp"
+                android:textColor="#FF3C33"
+                android:textSize="20dp"
+                android:paddingTop="20sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/report_person_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView6"
+        android:textSize="15dp"
+        android:textColor="#FF3C33"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="59dp"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:entries="@array/sprin_array"
+        android:background="#D4FBF9"
+        android:textColor="#FFFFFF"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report Person"
+        android:id="@+id/rideStatus"/>
+
+
+</LinearLayout>
+</FrameLayout>
+
